@@ -5,7 +5,7 @@ import time
 
 class AuthPage(BasePage):
 
-   def __init__(self, driver, timeout=15):
+   def __init__(self, driver, timeout=10):
        super().__init__(driver, timeout)
        driver.get("https://b2c.passport.rt.ru/")
        time.sleep(10)
