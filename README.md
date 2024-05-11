@@ -12,6 +12,9 @@
 -	Webdriver-manager
 
 Команды для запуска тестов:
+
 python -m pytest tests/test_auth_form.py
+
 python -m pytest tests/test_auth_form.py::TestAuthForm::test_auth_form_positive
+
 python -m pytest tests/test_auth_form.py::TestAuthForm::test_auth_form_negative
