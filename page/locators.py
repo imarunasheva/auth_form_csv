@@ -12,6 +12,6 @@ class AuthLocators:
    auth_button = (By.XPATH, '//button[@name="register"]')
 
    # локаторы поиска результатов регистрации, ошибок полей ввода, учетная запись существует
-   msg_result = (By.XPATH, '//*[contains(text(), "Kод подтверждения отправлен на адрес ")\
-                or @class="rt-input-container__meta rt-input-container__meta--error"\
-                or @class="card-modal__title"]')
+   msg_result_positive = (By.XPATH, '//*[contains(text(), "Kод подтверждения отправлен на адрес ")\
+                   or @class="card-modal__title"]')
+   msg_result_negative = (By.XPATH, '//*[@class="rt-input-container__meta rt-input-container__meta--error"]')
