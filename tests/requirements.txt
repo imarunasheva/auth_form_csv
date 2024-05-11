@@ -1,0 +1,4 @@
+Pytest == 6.2.5
+Selenium == 4.9.0
+Pytest-selenium == 4.0.0
+Webdriver-manager
